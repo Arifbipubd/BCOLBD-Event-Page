@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.heading{
+    background-image: url(../image/home.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 130vh;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+.heading h2{
+   font-size: 45px;
+   margin-bottom: 20px;
+   font-weight: bolder;
+}
+.heading h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 200;
+ }
+ .heading h4{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 500;
+ }
+ .heading h5{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 200;
+ }
+
+.headingTime{
+    display: flex;
+    margin-left: 380px;
+}
+.headingTime h1{
+    font-size: 65px;
+    padding-right: 65px;
+    font-weight: bold;
+}
+.headingTime p{
+    font-size: 25px;
+    padding-right: 65px;
+    font-weight: 400;
+}
+.headingButton button{
+    height: 55px;
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: rgb(78, 188, 252);
+    color: white;
+    border: none;
+}
+.headingButton button:focus{
+    outline: 0;
+}
+
+/*----------IBCOL EVENT-------*/
+.ibcolEventHeading hr{
+    margin: 0px 100px 0 100px;
+}
+.ibcolEventHeading h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 25px 0;
+}
+.button{
+    text-align: center;
+    margin: 0px;
+}
+.button img{
+    height: 35px;
+    width: 35px;
+}
+.button button{
+    width: 190px;
+    height: 55px;
+    color: rgb(110, 104, 104);
+    font-size: 25px;
+    background: white;
+    border: 1px solid rgb(172, 166, 166);
+}
+.button button:focus{
+    border: 2px solid #fff;
+    outline: 0;
+}
+.active{
+   border: 1px solid rgb(255, 255, 255);
+}
+.button-div{
+    display: flex;
+    margin-left: 350px;
+}
+.hide-section-2{
+    display: none;
+}
+.hide-section-3{
+    display: none;
+}
+.hide-section-4{
+    display: none;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about h1{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 115px;
+}
+.aboutDesc hr{
+    margin-right: 150px;
+}
+.aboutDesc p{
+    text-align: justify;
+    line-height: 30px;
+}
+.aboutPic button{
+    background: none;
+    border: none;
+}
+.carousel-item img{
+    height: 380px;
+    width: 300px;
+    border-radius: 5px;
+}
+.aboutSecond h2{
+    margin: 40px 0 40px 120px;
+}
+.aboutSecondPic{
+    display: flex;
+}
+.aboutSecondPic img{
+    height: 150px;
+    width: 180px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.aboutSecondDesc{
+    text-align: center;
+}
+.aboutSecondDesc p{
+    font-size: 20px;
+    color: rgb(60, 63, 60);
+    line-height: 40px;
+}
+.aboutSecondDesc h5{
+    font-size: 30px;
+}
+
+/*--------SCHEDULE----------*/
+.schedule{
+    margin-top: 65px;
+}
+.scheduleDesc h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.scheduleDesc h4{
+    font-weight: 300;
+}
+.scheduleDesc hr{
+    margin-right: 20px;
+}
+.scheduleInfo p{
+    line-height:28px;
+    margin: 15px 0 0 35px;
+}
+.scheduleTime{
+    display: flex;
+}
+.scheduleTimeDate h4{
+    writing-mode: vertical-lr;
+    background-color: rgb(80, 160, 252);
+    transform: rotate(180deg);
+    margin-left: 100px;
+    height: 280px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.scheduleCard{
+    width: 282px;
+    margin-left: -30px;
+}
+.scheduleCardImg img{
+    height: 150px;
+    width: 282px;
+}
+.scheduleTitle{
+    background-color: #202020;
+    height: 130px;
+}
+.scheduleTitle h6{
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 10px 0 0 0;
+    color: rgb(228, 225, 225);
+}
+.scheduleTitle h5{
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 5px 0 0 0;
+    color: rgb(228, 225, 225);
+    line-height: 25px;
+}
+.scheduleTitle p{
+    font-size: 12px;
+    margin-left: 20px;
+    color: rgb(228, 225, 225);
+}
+
+/*------------Subscribe------*/
+.subscribe{
+    margin: 30px;
+    padding: 20px;
+    height: 150px;
+}
+.subscribe h1{
+    text-align: left;
+    color: rgb(5, 5, 5);
+    font-weight: 300; 
+    margin-left: 45px;
+}
+.subscribe p{
+    text-align: left;
+    width: 50%;
+    font-size: 25px;
+    margin-left: 45px;
+    color: rgb(48, 47, 47);
+    font-weight: 200;
+}
+.subscribeButton button{
+    width: 200px;
+    height: 45px;
+    margin-left:270px;
+    background-color: rgb(30, 31, 32);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.subscribeButton button:hover{
+    background-color: rgb(220, 70, 200);
+}
+#subscribeInput{
+    margin-left: -20px;
+    width: 750px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid rgb(199, 199, 198);
+    border-radius: 5px;
+    
+}
+
+/*----------Awards-------------*/
+.awards h1{
+    text-align: center;
+    margin: 125px 0 70px 0;
+    font-weight: bold;
+}
+.awardsPic img{
+    height:180px;
+    width: 250px;
+    margin-left: 100px;
+}
+.awardsDesc{
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.awardsDesc h5{
+    font-weight: 500;
+}
+.awardsDesc p{
+    line-height: 45px;
+    color: rgb(114, 113, 113);
+}
+
+/*------------Participation-----------------*/
+.participateCountry h1{
+    text-align: center;
+    margin: 125px 0 70px 0;
+    font-weight: bold;
+}
+.participationInfo{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.participationFlag img{
+    height: 65px;
+    width: 105px;
+}
+.participationDesc{
+    margin-left: 25px;
+    margin-top: 5px;
+}
