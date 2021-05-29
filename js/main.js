@@ -14,14 +14,15 @@ document.getElementById('button2').addEventListener('click',function(){
     document.querySelector('.hide-section-5').style.display = 'none' ;
     // document.querySelector('.button').style.display = 'none' ;
 })
-// document.getElementById('button3').addEventListener('click',function(){
-//     document.querySelector('.hide-section-1').style.display = 'none' ;
-//     document.querySelector('.hide-section-2').style.display = 'none' ;
-//     document.querySelector('.hide-section-3').style.display = 'block' ;
-//     document.querySelector('.hide-section-4').style.display = 'none' ;
-//     document.querySelector('.hide-section-5').style.display = 'none' ;
-//     // document.querySelector('.button').style.display = 'none' ;
-// })
+
+document.getElementById('button3').addEventListener('click',function(){
+    document.querySelector('.hide-section-1').style.display = 'none' ;
+    document.querySelector('.hide-section-2').style.display = 'none' ;
+    document.querySelector('.hide-section-3').style.display = 'block' ;
+    document.querySelector('.hide-section-4').style.display = 'none' ;
+    document.querySelector('.hide-section-5').style.display = 'none' ;
+    // document.querySelector('.button').style.display = 'none' ;
+})
 // document.getElementById('button4').addEventListener('click',function(){
 //     document.querySelector('.hide-section-1').style.display = 'none' ;
 //     document.querySelector('.hide-section-2').style.display = 'none' ;
@@ -30,6 +31,7 @@ document.getElementById('button2').addEventListener('click',function(){
 //     document.querySelector('.hide-section-5').style.display = 'none' ;
 //     // document.querySelector('.button').style.display = 'none' ;
 // })
+
 
 
 /*----------------ActiveClass----------*/
