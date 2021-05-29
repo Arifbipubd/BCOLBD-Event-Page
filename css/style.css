@@ -121,7 +121,7 @@
 }
 .aboutDesc p{
     text-align: justify;
-    line-height: 30px;
+    line-height: 35px;
 }
 .aboutPic button{
     background: none;
@@ -137,11 +137,13 @@
 }
 .aboutSecondPic{
     display: flex;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
 }
 .aboutSecondPic img{
-    height: 150px;
-    width: 180px;
-    border: 1px solid gray;
+    height: 120px;
+    width: 150px;
+    margin: 15px 10px 15px 25px;
     border-radius: 5px;
 }
 
@@ -149,7 +151,9 @@
     text-align: center;
 }
 .aboutSecondDesc p{
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 17px;
+    text-align: justify;
     color: rgb(60, 63, 60);
     line-height: 40px;
 }
@@ -160,6 +164,9 @@
 /*--------SCHEDULE----------*/
 .schedule{
     margin-top: 65px;
+}
+.scheduleDesc {
+    margin-bottom: 30px;
 }
 .scheduleDesc h1{
     font-size: 45px;
@@ -244,7 +251,6 @@
 .subscribeButton button{
     width: 200px;
     height: 45px;
-    margin-left:270px;
     background-color: rgb(30, 31, 32);
     color: white;
     border-radius: 5px;
@@ -266,13 +272,14 @@
 /*----------Awards-------------*/
 .awards h1{
     text-align: center;
-    margin: 125px 0 70px 0;
+    margin: 125px 0 120px 0;
     font-weight: bold;
 }
 .awardsPic img{
-    height:180px;
-    width: 250px;
+    height:250px;
+    width: 300px;
     margin-left: 100px;
+    margin-top: -60px;
 }
 .awardsDesc{
     margin-left: 80px;
