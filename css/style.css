@@ -137,16 +137,37 @@
 }
 .aboutSecondPic{
     display: flex;
-    background-color: rgb(8, 8, 8);
-    border-radius: 10px;
 }
 .aboutSecondPic img{
-    height: 120px;
-    width: 120px;
-    margin: 15px 10px 15px 45px;
+    height: 110px;
+    width: 100px;
+    margin: 15px 80px 15px 5px;
     border-radius: 5px;
 }
-
+.aboutSecondPic1 p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.aboutSecondPic2 p{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.aboutSecondPic3 p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+.aboutSecondPic4 p{
+    margin-left: 0px;
+    font-weight: bold;
+}
+.aboutSecondPic5 p{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.aboutSecondPic6 p{
+    margin-left: 30px;
+    font-weight: bold;
+}
 .aboutSecondDesc{
     text-align: center;
 }
@@ -280,10 +301,10 @@
     font-weight: bold;
 }
 .awardsPic img{
-    height:250px;
-    width: 300px;
+    height:220px;
+    width: 350px;
     margin-left: 100px;
-    margin-top: -60px;
+    margin-top: -25px;
 }
 .awardsDesc{
     margin-left: 80px;
